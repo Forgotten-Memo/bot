@@ -131,7 +131,7 @@ The following is a quick reference for what each command does and how to use the
 | `!malProfile-m {u_OR_@m}` | Retrieves the MAL profile and manga stats of a user. Returns your own by default. |
 | `!user {@m}` | Returns the user details of a discord user. Returns your own by default. |
 | `!recent {u_or_@m}` | Returns the recent anime watched by a user (based on MAL list). Returns your own by default.|
-| `!recent-m {u_or_@m}` | Returns the recent manga watched by a user (based on MAL list). Returns your own by default.|
+| `!recent-m {u_or_@m}` | Returns the recent manga read by a user (based on MAL list). Returns your own by default.|
 | `!seasonList {u_or_@m}` | Returns a list of anime from the current season that a user is watching. Returns your own by default.|
 | `!seasonSummary {u_or_@m}` | Returns a summary of a user's seasonal stats. Returns your own by default.|
 | `!random {filter1} {filter2}` | Returns a random anime in the database that you have yet to watch. Filters: `s: weighted score` `n: number of raters` e.g. !random s>7.6 n>20. |
