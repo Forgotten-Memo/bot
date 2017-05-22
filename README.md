@@ -105,7 +105,7 @@ The following is a quick reference for what each command does and how to use the
 #### Info Commands
 
 | Command |  Description |
-| ------------- | ------------- |
+|------------- | ------------- |
 |`!help {command_name}` | Retrieves the list of standard commands or a specific command.  |
 |`!guide` | Returns a link to the bot guide (this page).  |
 |`!prc` | Returns details regarding the Power Ranking Committee (PRC) and links to the various threads. |
@@ -121,7 +121,7 @@ The following is a quick reference for what each command does and how to use the
 #### Profile Commands
 
 | Command | Description |
-| ------------- | ------------- |
+|------------- | ------------- |
 |`!setMal` | Links your MAL profile to the bot. |
 |`!update` | Updates the bot's database with your latest lists. |
 |`!malProfile {u_OR_@m}` | Retrieves the MAL profile and anime stats of a user. Returns your own by default. |
@@ -139,10 +139,10 @@ The following is a quick reference for what each command does and how to use the
 #### Utility Commands
 
 | Command | Description |
-| ------------- | ------------- |
-| `!ping` | Checks whether the bot is alive and if so, how long it takes to respond. |
-| `!pingMal` | Checks whether the bot is able to connect to MAL and if so, how long it takes to establish a connection. |
-| `!spoiler | [spoiler_title] | [message]` | **USE THIS IN A PM TO THE BOT** This command allows you to share a spoiler without spoiling the fun for those who don't wish to see the spoiler.|
+|------------- | ------------- |
+|`!ping` | Checks whether the bot is alive and if so, how long it takes to respond. |
+|`!pingMal` | Checks whether the bot is able to connect to MAL and if so, how long it takes to establish a connection. |
+|`!spoiler | [spoiler_title] | [message]` | **USE THIS IN A PM TO THE BOT** This command allows you to share a spoiler without spoiling the fun for those who don't wish to see the spoiler.|
 | `!quote [message_id]` | Quotes a message using the id of a message. |
 | `!database` | Returns statistics on the sizes of the bot's databases. |
 | `!status` | Returns information on the bot's last update and current node. |
@@ -187,7 +187,7 @@ The following is a quick reference for what each command does and how to use the
 | `!agScore-c [character_name]` | Returns the AG score and stats for a character. |
 | `!agScore-id-c [character_id]` |  Returns the AG score and stats for a character with the MAL character ID specified |
 | `!agTop-c {int}` | Returns the top characters in AG based on the favorite characters of those in the Monument Project. An integer may be added to retrieve subsequent pages of entries. |
-| `!dbsearch-c [search1] {search2} {int} {filter}` | Returns character entries from the database based on your search entries. Search entries: ` p: position` `i: manga id ` `u: malUsername` Filters: `<Ranked>` `<Unranked>` e.g. !dbSearch i=24417 p\<5 |
+| `!dbsearch-c [search1] {search2} {int} {filter}` | Returns character entries from the database based on your search entries. Search entries: `p: position` `i: manga id` `u: malUsername` Filters: `<Ranked>` `<Unranked>` e.g. !dbSearch i=24417 p\<5 |
 
 
 
@@ -209,14 +209,14 @@ The following is a quick reference for what each command does and how to use the
 | `!!setUsername [bot_username]` | Changes the bot's username.|
 | `!!setAvatar [image_url]` | Changes the bot's avatar. Must be a jpg or png file. |
 | `!!setGame [game_name]` | Changes the game status of the bot. |
-| `!!setStatus [status]` | Changes the bot's presence status. Status: `1: Online` `2: Idle` `3; Do not Disturb` `4: Invisible` |
+| `!!setStatus [status]` | Changes the bot's presence status. Status: `1: Online` `2: Idle` `3: Do not Disturb` `4: Invisible` |
 
 #### Moderation
 
 | Command |  Description |
 | ------------- | ------------- |
-| `!!block [@m] | {reason}` | Blocks a user from using the bot's commands. |
-| `!!unblock [@m] | {reason}` | Unblocks a user from using the bot's commands. |
+| `!!block [@m] ``|`` {reason}` | Blocks a user from using the bot's commands. |
+| `!!unblock [@m] ``|`` {reason}` | Unblocks a user from using the bot's commands. |
 | `!!lock [@m] | {reason}` | Prevents the user from changing his/her MAL username with !setMal. |
 | `!!unlock [@m] | {reason}` | Allows the user to change his/her MAL username with !setMal. |
 | `!!mute [@m] | {reason}` | Adds the mute role to a user. |
