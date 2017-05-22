@@ -24,7 +24,7 @@ AG-bot is a Discord bot programmed and serviced by [Forgotten_memo](https://myan
 
 ## Bot Overview
 
-<span style="color:blue">The bot currently features over 100 commands.</span> The bot's current functionalities include, but are not limited to:
+The bot currently features over 100 commands. The bot's current functionalities include, but are not limited to:
 - Anime Database
 - Manga Database
 - Character Database
