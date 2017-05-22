@@ -60,13 +60,13 @@ The most important command to start with would be **!setMal [username].** Using 
 ### Some Basic Commands
 Now that you’ve linked your MAL list to the database, it’s time to try out some basic commands. In bot-realm, try out the following commands:
 
-> **!malProfile** | Returns your MAL profile details and link.
+> **!malProfile:** Returns your MAL profile details and link.
 
-> **!agTop** | Displays the top 10 anime in the AG leaderboard based on the Monument Project participants’ lists.
+> **!agTop:** Displays the top 10 anime in the AG leaderboard based on the Monument Project participants’ lists.
 
-> **!agAffinities** | Displays your top 10 affinities out of all the Monument Project participants.
+> **!agAffinities:** Displays your top 10 affinities out of all the Monument Project participants.
 
-> **!update** | Use this whenever you make significant changes to your MAL list to ensure that your list in my database is in sync with your list on MAL.
+> **!update:** Use this whenever you make significant changes to your MAL list to ensure that your list in my database is in sync with your list on MAL.
 
 ### Monument Project
 By now, you are probably wondering what this Monument Project thing is. 
