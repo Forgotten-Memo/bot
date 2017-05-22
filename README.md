@@ -106,35 +106,35 @@ The following is a quick reference for what each command does and how to use the
 
 | Command |  Description |
 | ------------- | ------------- |
-| `!help {command_name}` | Retrieves the list of standard commands or a specific command.  |
-| `!guide` | Returns a link to the bot guide (this page).  |
-| `!prc` | Returns details regarding the Power Ranking Committee (PRC) and links to the various threads. |
-| `!mp` | Returns details regarding the Monument Project (MP) and sign-up thread.|
-| `!oped` | Returns the latest two threads for the seasonal OP or ED competitions. |
-| `!guild` | Returns a link to the guild's home page. |
-| `!guildHistory` | Returns a link to the guild's halls of History. |
-| `!sotw`  | Returns a link to the current SOTW thread. |
-| `!faq {faq_id}`  | Returns some answers to frequently asked questions. |
-| `!formulas`  | Returns the formulas for some of the bot's score calculation algorithms. |
-| `!botinfo`  | Returns basic information on the bot such as version and the system it is running on. |
+|`!help {command_name}` | Retrieves the list of standard commands or a specific command.  |
+|`!guide` | Returns a link to the bot guide (this page).  |
+|`!prc` | Returns details regarding the Power Ranking Committee (PRC) and links to the various threads. |
+|`!mp` | Returns details regarding the Monument Project (MP) and sign-up thread.|
+|`!oped` | Returns the latest two threads for the seasonal OP or ED competitions. |
+|`!guild` | Returns a link to the guild's home page. |
+|`!guildHistory` | Returns a link to the guild's halls of History. |
+|`!sotw`  | Returns a link to the current SOTW thread. |
+|`!faq {faq_id}`  | Returns some answers to frequently asked questions. |
+|`!formulas`  | Returns the formulas for some of the bot's score calculation algorithms. |
+|`!botinfo`  | Returns basic information on the bot such as version and the system it is running on. |
 
 #### Profile Commands
 
 | Command | Description |
 | ------------- | ------------- |
-| `!setMal` | Links your MAL profile to the bot. |
-| `!update` | Updates the bot's database with your latest lists. |
-| `!malProfile {u_OR_@m}` | Retrieves the MAL profile and anime stats of a user. Returns your own by default. |
-| `!malProfile-m {u_OR_@m}` | Retrieves the MAL profile and manga stats of a user. Returns your own by default. |
-| `!user {@m}` | Returns the user details of a discord user. Returns your own by default. |
-| `!recent {u_or_@m}` | Returns the recent anime watched by a user (based on MAL list). Returns your own by default.|
-| `!recent-m {u_or_@m}` | Returns the recent manga watched by a user (based on MAL list). Returns your own by default.|
-| `!seasonList {u_or_@m}` | Returns a list of anime from the current season that a user is watching. Returns your own by default.|
-| `!seasonSummary {u_or_@m}` | Returns a summary of a user's seasonal stats. Returns your own by default.|
-| `!random {filter1} {filter2}` | Returns a random anime in the database that you have yet to watch. Filters: `s: weighted score` `n: number of raters` e.g. !random s>7.6 n>20. |
-| `!random-m {filter1} {filter2}` | Returns a random manga in the database that you have yet to read. Filters: `s: weighted score` `n: number of raters` e.g. !random s>8. |
-| `!randomPtw` | Returns a random anime in your Plan to Watch list. Filters: `s: weighted score` `n: number of raters` e.g. !random s>7 n>30. |
-| `!randomPtr` | Returns a random manga in your Plan to Read list. Filters: `s: weighted score` `n: number of raters` e.g. !random s>8. |
+|`!setMal` | Links your MAL profile to the bot. |
+|`!update` | Updates the bot's database with your latest lists. |
+|`!malProfile {u_OR_@m}` | Retrieves the MAL profile and anime stats of a user. Returns your own by default. |
+|`!malProfile-m {u_OR_@m}` | Retrieves the MAL profile and manga stats of a user. Returns your own by default. |
+|`!user {@m}` | Returns the user details of a discord user. Returns your own by default. |
+|`!recent {u_or_@m}` | Returns the recent anime watched by a user (based on MAL list). Returns your own by default.|
+|`!recent-m {u_or_@m}` | Returns the recent manga watched by a user (based on MAL list). Returns your own by default.|
+|`!seasonList {u_or_@m}` | Returns a list of anime from the current season that a user is watching. Returns your own by default.|
+|`!seasonSummary {u_or_@m}` | Returns a summary of a user's seasonal stats. Returns your own by default.|
+|`!random {filter1} {filter2}` | Returns a random anime in the database that you have yet to watch. Filters: `s: weighted score` `n: number of raters` e.g. !random s>7.6 n>20. |
+|`!random-m {filter1} {filter2}` | Returns a random manga in the database that you have yet to read. Filters: `s: weighted score` `n: number of raters` e.g. !random s>8. |
+|`!randomPtw` | Returns a random anime in your Plan to Watch list. Filters: `s: weighted score` `n: number of raters` e.g. !random s>7 n>30. |
+|`!randomPtr` | Returns a random manga in your Plan to Read list. Filters: `s: weighted score` `n: number of raters` e.g. !random s>8. |
 
 #### Utility Commands
 
