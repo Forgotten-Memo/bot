@@ -145,7 +145,7 @@ The following is a quick reference for what each command does and how to use the
 |------------- | ------------- |
 |`!ping` | Checks whether the bot is alive and if so, how long it takes to respond. |
 |`!pingMal` | Checks whether the bot is able to connect to MAL and if so, how long it takes to establish a connection. |
-|`!spoiler | [spoiler_title] | [message]` | **USE THIS IN A PM TO THE BOT** This command allows you to share a spoiler without spoiling the fun for those who don't wish to see the spoiler.|
+|`!spoiler \| [spoiler_title] \| [message]` | **USE THIS IN A PM TO THE BOT** This command allows you to share a spoiler without spoiling the fun for those who don't wish to see the spoiler.|
 | `!quote [message_id]` | Quotes a message using the id of a message. |
 | `!database` | Returns statistics on the sizes of the bot's databases. |
 | `!status` | Returns information on the bot's last update and current node. |
