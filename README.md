@@ -60,13 +60,13 @@ The most important command to start with would be **!setMal [username].** Using 
 ### Some Basic Commands
 Now that you’ve linked your MAL list to the database, it’s time to try out some basic commands. In bot-realm, try out the following commands:
 
-> **!malProfile** || Returns your MAL profile details and link.
+> **!malProfile** | Returns your MAL profile details and link.
 
-> **!agTop** || Displays the top 10 anime in the AG leaderboard based on the Monument Project participants’ lists.
+> **!agTop** | Displays the top 10 anime in the AG leaderboard based on the Monument Project participants’ lists.
 
-> **!agAffinities** || Displays your top 10 affinities out of all the Monument Project participants.
+> **!agAffinities** | Displays your top 10 affinities out of all the Monument Project participants.
 
-> **!update** || Use this whenever you make significant changes to your MAL list to ensure that your list in my database is in sync with your list on MAL.
+> **!update** | Use this whenever you make significant changes to your MAL list to ensure that your list in my database is in sync with your list on MAL.
 
 ### Monument Project
 By now, you are probably wondering what this Monument Project thing is. 
@@ -142,7 +142,7 @@ The following is a quick reference for what each command does and how to use the
 | ------------- | ------------- |
 | `!ping` | Checks whether the bot is alive and if so, how long it takes to respond. |
 | `!pingMal` | Checks whether the bot is able to connect to MAL and if so, how long it takes to establish a connection. |
-| `!spoiler \| [spoiler_title] \| [message]` | **USE THIS IN A PM TO THE BOT** This command allows you to share a spoiler without spoiling the fun for those who don't wish to see the spoiler.|
+| `!spoiler | [spoiler_title] | [message]` | **USE THIS IN A PM TO THE BOT** This command allows you to share a spoiler without spoiling the fun for those who don't wish to see the spoiler.|
 | `!quote [message_id]` | Quotes a message using the id of a message. |
 | `!database` | Returns statistics on the sizes of the bot's databases. |
 | `!status` | Returns information on the bot's last update and current node. |
@@ -215,12 +215,12 @@ The following is a quick reference for what each command does and how to use the
 
 | Command |  Description |
 | ------------- | ------------- |
-| `!!block [@m] \| {reason}` | Blocks a user from using the bot's commands. |
-| `!!unblock [@m] \| {reason}` | Unblocks a user from using the bot's commands. |
-| `!!lock [@m] \| {reason}` | Prevents the user from changing his/her MAL username with !setMal. |
-| `!!unlock [@m] \| {reason}` | Allows the user to change his/her MAL username with !setMal. |
-| `!!mute [@m] \| {reason}` | Adds the mute role to a user. |
-| `!!unmute [@m] \| {reason}` | Removes the mute role from a user. |
+| `!!block [@m] | {reason}` | Blocks a user from using the bot's commands. |
+| `!!unblock [@m] | {reason}` | Unblocks a user from using the bot's commands. |
+| `!!lock [@m] | {reason}` | Prevents the user from changing his/her MAL username with !setMal. |
+| `!!unlock [@m] | {reason}` | Allows the user to change his/her MAL username with !setMal. |
+| `!!mute [@m] | {reason}` | Adds the mute role to a user. |
+| `!!unmute [@m] | {reason}` | Removes the mute role from a user. |
 
 #### URL Settings
 
