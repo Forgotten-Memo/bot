@@ -20,6 +20,7 @@ AG-bot is a Discord bot programmed and serviced by [Forgotten_memo](https://myan
 - [Credits](#license)
 - [License](#license)
 
+---
 
 ## Bot Overview
 
@@ -51,6 +52,8 @@ Storage: Samsung 960 Pro 512GB
 Raspberry Pi 3b
 ```
 
+---
+
 ## Getting Started
 
 ### Linking your MAL account
@@ -60,13 +63,13 @@ The most important command to start with would be **!setMal [username].** Using 
 ### Some Basic Commands
 Now that you’ve linked your MAL list to the database, it’s time to try out some basic commands. In bot-realm, try out the following commands:
 
-> **!malProfile:** Returns your MAL profile details and link.
+> **!malProfile** || Returns your MAL profile details and link.
 
-> **!agTop:** Displays the top 10 anime in the AG leaderboard based on the Monument Project participants’ lists.
+> **!agTop** || Displays the top 10 anime in the AG leaderboard based on the Monument Project participants’ lists.
 
-> **!agAffinities:** Displays your top 10 affinities out of all the Monument Project participants.
+> **!agAffinities** || Displays your top 10 affinities out of all the Monument Project participants.
 
-> **!update:** Use this whenever you make significant changes to your MAL list to ensure that your list in my database is in sync with your list on MAL.
+> **!update** || Use this whenever you make significant changes to your MAL list to ensure that your list in my database is in sync with your list on MAL.
 
 ### Monument Project
 By now, you are probably wondering what this Monument Project thing is. 
@@ -78,7 +81,7 @@ If you would like to join the project or find out more about it, please head ove
 ### Further Help
 If you need more help regarding the commands, you can use !help on Discord or check out the rest of this document. (use !guide on Discord if you ever need a link to this doc.)
 
-
+---
 
 
 ## Command Cheat Sheet
@@ -215,12 +218,12 @@ The following is a quick reference for what each command does and how to use the
 
 | Command |  Description |
 | ------------- | ------------- |
-| `!!block [@m] ``|`` {reason}` | Blocks a user from using the bot's commands. |
-| `!!unblock [@m] ``|`` {reason}` | Unblocks a user from using the bot's commands. |
-| `!!lock [@m] | {reason}` | Prevents the user from changing his/her MAL username with !setMal. |
-| `!!unlock [@m] | {reason}` | Allows the user to change his/her MAL username with !setMal. |
-| `!!mute [@m] | {reason}` | Adds the mute role to a user. |
-| `!!unmute [@m] | {reason}` | Removes the mute role from a user. |
+| `!!block [@m] \| {reason}` | Blocks a user from using the bot's commands. |
+| `!!unblock [@m] \| {reason}` | Unblocks a user from using the bot's commands. |
+| `!!lock [@m] \| {reason}` | Prevents the user from changing his/her MAL username with !setMal. |
+| `!!unlock [@m] \| {reason}` | Allows the user to change his/her MAL username with !setMal. |
+| `!!mute [@m] \| {reason}` | Adds the mute role to a user. |
+| `!!unmute [@m] \| {reason}` | Removes the mute role from a user. |
 
 #### URL Settings
 
