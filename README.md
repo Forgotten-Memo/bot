@@ -125,7 +125,7 @@ The following is a quick reference for what each command does and how to use the
 
 | Command | Description |
 | ------------- | ------------- |
-| `!setMal` | Links your MAL profile to the bot. |
+| `!setMal [u]` | Links your MAL profile to the bot. |
 | `!update` | Updates the bot's database with your latest lists. |
 | `!malProfile {u_OR_@m}` | Retrieves the MAL profile and anime stats of a user. Returns your own by default. |
 | `!malProfile-m {u_OR_@m}` | Retrieves the MAL profile and manga stats of a user. Returns your own by default. |
