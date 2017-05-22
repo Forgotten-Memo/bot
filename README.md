@@ -103,6 +103,7 @@ The following is a quick reference for what each command does and how to use the
 > Most commands will require you to use **!setMal** before they may be used.
 
 #### Info Commands
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!help {command_name}` | Retrieves the list of standard commands or a specific command.  |
@@ -118,6 +119,7 @@ The following is a quick reference for what each command does and how to use the
 | `!botinfo`  | Returns basic information on the bot such as version and the system it is running on. |
 
 #### Profile Commands
+
 | Command | Description |
 | ------------- | ------------- |
 | `!setMal` | Links your MAL profile to the bot. |
@@ -135,6 +137,7 @@ The following is a quick reference for what each command does and how to use the
 | `!randomPtr` | Returns a random manga in your Plan to Read list. Filters: `s: weighted score` `n: number of raters` e.g. !random s>8. |
 
 #### Utility Commands
+
 | Command | Description |
 | ------------- | ------------- |
 | `!ping` | Checks whether the bot is alive and if so, how long it takes to respond. |
@@ -147,6 +150,7 @@ The following is a quick reference for what each command does and how to use the
 | `!feedback` | Returns a Google Form link for providing feedback/suggestions regarding the bot. |
 
 #### Anime Commands
+
 | Command | Description |
 | ------------- | ------------- |
 | `!malGraph {u_or_@m}` | Retrieves the Graph Anime Plus graph of a user.|
@@ -162,6 +166,7 @@ The following is a quick reference for what each command does and how to use the
 | `!seasonTop {year season}` | Returns the top anime that started airing in a season. Defaults to the current season. |
 
 #### Manga Commands
+
 | Command | Description |
 | ------------- | ------------- |
 | `!malGraph-m {u_or_@m}` | Retrieves the Graph Anime Plus manga graph of a user.|
@@ -176,6 +181,7 @@ The following is a quick reference for what each command does and how to use the
 | `!userList-m {sort_method}` | Returns a list of users in the database sorted by manga statistics. Sort method: `<completed>` `<dropRate>` `<avgRating>` Defaults to total rated manga. |
 
 #### Character Commands
+
 | Command |  What it does |
 | ------------- | ------------- |
 | `!agScore-c [character_name]` | Returns the AG score and stats for a character. |
@@ -193,6 +199,7 @@ The following is a quick reference for what each command does and how to use the
 > All mod commands require an access rank of 2 or higher. Some commands may require an access rank of 3 or higher. 
 
 #### Bot Settings
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!settings` | Returns a list of the bot's current settings. |
@@ -205,6 +212,7 @@ The following is a quick reference for what each command does and how to use the
 | `!!setStatus [status]` | Changes the bot's presence status. Status: `1: Online` `2: Idle` `3; Do not Disturb` `4: Invisible` |
 
 #### Moderation
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!block [@m] \| {reason}` | Blocks a user from using the bot's commands. |
@@ -215,6 +223,7 @@ The following is a quick reference for what each command does and how to use the
 | `!!unmute [@m] \| {reason}` | Removes the mute role from a user. |
 
 #### URL Settings
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!setMusic` | Sets the link to the current seasonal OP/ED thread. |
@@ -225,6 +234,7 @@ The following is a quick reference for what each command does and how to use the
 | `!!setSotw` | Sets the SOTW youtube link |
 
 #### Utility
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!nickname [nickname] [@m]` | Assigns a Discord nickname to a user. |
@@ -233,6 +243,7 @@ The following is a quick reference for what each command does and how to use the
 | `!!sotwSchedule` | Brings up the schedule of SOTW duties. |
 
 #### Database
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!update [u_OR_@m]` | Updates the database with the latest lists of a user. |
@@ -258,6 +269,7 @@ The following is a quick reference for what each command does and how to use the
 > All admin commands require an access rank of 4 or higher. Some DEV commands may require an access rank of 5.
 
 #### DB Administration
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!!setProfile [u] {@m}` | Adds a MAL profile to the bot's registry. A Discord user may be mentioned to tag that MAL profile to them (this would be similar to the mentioned user using !setMal) |
@@ -268,6 +280,7 @@ The following is a quick reference for what each command does and how to use the
 | `!!!register-m [u or @m]` | A shortcut to add a member to the Monument Project (manga) |
 
 #### DB Update
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!!dbFixId` | Scans the registry and fixes any id issues. | 
@@ -280,6 +293,7 @@ The following is a quick reference for what each command does and how to use the
 | `!!!scoreAll-c` | Updates the scores of all characters in the database. AdminMode/DevMode must be enabled.| 
 
 #### Admin Settings
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!!adminMode-on` | Sets the bot to only recognise commands from those with the admin role. |
@@ -292,6 +306,7 @@ The following is a quick reference for what each command does and how to use the
 | `!!!audioQuality [int]` | Sets the audio quality of the bot. Recommended range: `1 - 6` (Access rank 5 required) |
 
 #### Bot Override
+
 | Command |  Description |
 | ------------- | ------------- |
 | `!!!kill` | Ends the main bot process if the bot is malfunctioning. The program may still be restarted using the overseer bot. | 
@@ -300,13 +315,11 @@ The following is a quick reference for what each command does and how to use the
 
 ## Author
 
-**Mark Otto**
-- <https://github.com/mdo>
-- <https://twitter.com/mdo>
+**Forgotten_memo**
+- <https://github.com/Forgotten-Memo>
+- <https://myanimelist.net/profile/Forgotten_Memo>
 
 
 ## License
 
 Open sourced under the [MIT license](LICENSE.md).
-
-<3
