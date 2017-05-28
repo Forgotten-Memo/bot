@@ -15,9 +15,8 @@ AG-bot is a Discord bot programmed and serviced by [Forgotten_memo](https://myan
   - [Mod Commands](#mod-commands)
   - [Admin Commands](#admin-commands)
   - [Music Commands](#music-commands)
-- [Detailed Commands](#author)
-- [FAQ](#license)
-- [Credits](#license)
+- [FAQ](https://github.com/Forgotten-Memo/AG-bot/wiki/FAQ)
+- [Credits](#credits)
 - [License](#license)
 
 ---
@@ -85,7 +84,7 @@ If you need more help regarding the commands, you can use !help on Discord or ch
 
 
 ## Command Cheat Sheet
-The following is a quick reference for what each command does and how to use them. For a detailed guide on how to use each individual command, either refer to the next section or use **!help {command_name}** / **!!modHelp {mod_command_name}** / **!!!adminHelp {admin_command_name}**
+The following is a quick reference for what each command does and how to use them. For a detailed guide on how to use each individual command, either refer to [this page](https://github.com/Forgotten-Memo/AG-bot/wiki/Detailed-Command-Guide) or use **!help {command_name}** / **!!modHelp {mod_command_name}** / **!!!adminHelp {admin_command_name}**
 
 ### Syntax notes
 > **u**: malUsername
@@ -316,7 +315,7 @@ The following is a quick reference for what each command does and how to use the
 | `!!!suicide` | Ends all bot processes. The program may not be restarted using the overseer bot. (Access rank 5 required) |
 
 
-## Author
+## Credits
 
 **Forgotten_memo**
 - <https://github.com/Forgotten-Memo>
